@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: pink;
+}
+
+main {
+  position: relative;
+  top: 10rem;
+}
+
+.canvas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  margin: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  color: brown;
+}
+#message {
+  color: orange;
+  font-size: 1.5em;
+}
+.btn {
+  padding: 1rem;
+  margin: 2rem;
+  background-color: navy;
+  border: none;
+  border-radius: 4px;
+  color: white;
+
+  /* border: none; */
+}
